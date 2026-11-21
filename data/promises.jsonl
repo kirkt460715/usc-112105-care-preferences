@@ -1,0 +1,3 @@
+{"promise":"g1","household":"F009","ward":"ridge","provider":"clinic","period":"night","committed_units":3,"option":"nightA"}
+{"promise":"g2","household":"F010","ward":"water","provider":"mobile","period":"weekend","committed_units":6,"option":"visitB"}
+{"promise":"g3","household":"F011","ward":"harbor","provider":"day","period":"weekday","committed_units":2,"option":"trip"}

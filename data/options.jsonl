@@ -1,0 +1,8 @@
+{"option":"statusquo","duration_hours":0,"time_kind":"none","copay_cents":0,"mode":"none","accompanying":false}
+{"option":"nightA","duration_hours":4,"time_kind":"night","copay_cents":1200,"mode":"site","accompanying":true}
+{"option":"nightB","duration_hours":4,"time_kind":"night","copay_cents":2500,"mode":"site","accompanying":false}
+{"option":"visitA","duration_hours":3,"time_kind":"weekend","copay_cents":1800,"mode":"home","accompanying":false}
+{"option":"visitB","duration_hours":3,"time_kind":"weekend","copay_cents":1100,"mode":"home","accompanying":true}
+{"option":"satA","duration_hours":4,"time_kind":"weekend","copay_cents":1700,"mode":"site","accompanying":true}
+{"option":"trip","duration_hours":2,"time_kind":"weekday","copay_cents":1500,"mode":"site","accompanying":false}
+{"option":"short","duration_hours":2,"time_kind":"weekend","copay_cents":1200,"mode":"home","accompanying":true}

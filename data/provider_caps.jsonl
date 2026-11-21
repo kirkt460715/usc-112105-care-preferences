@@ -1,0 +1,4 @@
+{"update":"c1","provider":"clinic","period":"night","units":14,"seen_on":"2026-09-01"}
+{"update":"c2","provider":"mobile","period":"weekend","units":34,"seen_on":"2026-09-01"}
+{"update":"c3","provider":"day","period":"weekday","units":9,"seen_on":"2026-09-01"}
+{"update":"c4","provider":"clinic","period":"night","units":10,"seen_on":"2026-10-02"}

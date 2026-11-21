@@ -1,0 +1,8 @@
+{"offer":"o1","ward":"ridge","provider":"clinic","period":"night","option":"nightB","bundles":5,"period_units":4,"cost_cents":116000,"ties":"paired","max_packs":3}
+{"offer":"o2","ward":"ridge","provider":"mobile","period":"weekend","option":"visitA","bundles":7,"period_units":6,"cost_cents":73000,"ties":"paired","max_packs":3}
+{"offer":"o3","ward":"harbor","provider":"clinic","period":"night","option":"nightA","bundles":9,"period_units":4,"cost_cents":98000,"ties":null,"max_packs":2}
+{"offer":"o4","ward":"water","provider":"clinic","period":"night","option":"nightB","bundles":6,"period_units":5,"cost_cents":102000,"ties":null,"max_packs":2}
+{"offer":"o5","ward":"water","provider":"mobile","period":"weekend","option":"visitB","bundles":6,"period_units":5,"cost_cents":76000,"ties":null,"max_packs":3}
+{"offer":"o6","ward":"ridge","provider":"mobile","period":"weekend","option":"short","bundles":7,"period_units":6,"cost_cents":51000,"ties":null,"max_packs":2}
+{"offer":"o7","ward":"harbor","provider":"mobile","period":"weekend","option":"satA","bundles":5,"period_units":7,"cost_cents":86000,"ties":null,"max_packs":3}
+{"offer":"o8","ward":"harbor","provider":"day","period":"weekday","option":"trip","bundles":6,"period_units":3,"cost_cents":43000,"ties":null,"max_packs":2}

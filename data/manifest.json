@@ -1,0 +1,67 @@
+{
+  "sample": [
+    "household",
+    "ward",
+    "stratum",
+    "sampling_probability",
+    "display_plan",
+    "guaranteed"
+  ],
+  "displays": [
+    "display",
+    "household",
+    "form",
+    "order",
+    "available",
+    "delivery"
+  ],
+  "responses": [
+    "answer",
+    "display",
+    "choice",
+    "state",
+    "seen_on"
+  ],
+  "options": [
+    "option",
+    "duration_hours",
+    "time_kind",
+    "copay_cents",
+    "mode",
+    "accompanying"
+  ],
+  "offers": [
+    "offer",
+    "ward",
+    "provider",
+    "period",
+    "option",
+    "bundles",
+    "period_units",
+    "cost_cents",
+    "ties",
+    "max_packs"
+  ],
+  "provider_caps": [
+    "update",
+    "provider",
+    "period",
+    "units",
+    "seen_on"
+  ],
+  "policy": [
+    "ward",
+    "minimum_families",
+    "evidence_min",
+    "global_budget_cents"
+  ],
+  "promises": [
+    "promise",
+    "household",
+    "ward",
+    "provider",
+    "period",
+    "committed_units",
+    "option"
+  ]
+}
