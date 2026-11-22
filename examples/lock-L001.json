@@ -1,0 +1,67 @@
+{
+  "lock": {
+    "as_of": "2026-09-25",
+    "basket": {
+      "o3": 1,
+      "o4": 1,
+      "o5": 1,
+      "o6": 1,
+      "o7": 1
+    },
+    "basket_text": "o3×1 + o4×1 + o5×1 + o6×1 + o7×1",
+    "benefit": 157.00459859920616,
+    "checks": [
+      {
+        "code": "offer_ids",
+        "message": "订单编号均可识别",
+        "ok": true
+      },
+      {
+        "code": "nonzero",
+        "message": "包数均为正",
+        "ok": true
+      },
+      {
+        "code": "max_packs",
+        "message": "各订单开办量未超过上限",
+        "ok": true
+      },
+      {
+        "code": "ties",
+        "message": "捆绑组包数一致",
+        "ok": true
+      },
+      {
+        "code": "provider_capacity",
+        "message": "班次容量足够，已承诺与已锁定部分已先扣除",
+        "ok": true
+      },
+      {
+        "code": "budget",
+        "message": "本轮新购费用 413000 分，在可承购预算 465000 分以内",
+        "ok": true
+      },
+      {
+        "code": "minimum_families",
+        "message": "各区达到最低支持户数",
+        "ok": true
+      },
+      {
+        "code": "evidence",
+        "message": "所有新购订单在本区都有可比证据",
+        "ok": true
+      }
+    ],
+    "cost_cents": 413000,
+    "digest": "7f669230a97ab2cce52a0379a5aa6e08ffe93c1d6d195b3e80c4fb1727fba6c1",
+    "label": "示例：九月容量初版",
+    "lock_id": "L001",
+    "reason": "",
+    "recorded_at": "2026-11-22T06:53:01+00:00",
+    "reserve_cents": 50000,
+    "ridge": 3.0,
+    "served": 33.0,
+    "spec": "B",
+    "supersedes": null
+  }
+}

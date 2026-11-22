@@ -1,0 +1,300 @@
+{
+  "adjustable": [
+    {
+      "offer": "o3",
+      "packs": 1
+    },
+    {
+      "offer": "o4",
+      "packs": 1
+    },
+    {
+      "offer": "o5",
+      "packs": 1
+    },
+    {
+      "offer": "o6",
+      "packs": 1
+    },
+    {
+      "offer": "o7",
+      "packs": 1
+    }
+  ],
+  "affected_households": [
+    {
+      "committed_units": 3,
+      "household": "F009",
+      "issue": "新容量下承诺与已锁定占用之和可能挤占该班次",
+      "option": "nightA",
+      "period": "night",
+      "promise": "g1",
+      "provider": "clinic",
+      "ward": "ridge"
+    },
+    {
+      "household": "（未逐一列名）",
+      "issue": "预计少获得服务的户数约 0.3",
+      "ward": "water"
+    }
+  ],
+  "alternatives": [
+    {
+      "basket": {
+        "o3": 1,
+        "o5": 2,
+        "o6": 1,
+        "o7": 1
+      },
+      "basket_text": "o3×1 + o5×2 + o6×1 + o7×1",
+      "benefit": 151.88833801693306,
+      "cost_cents": 387000,
+      "fixed_included": {},
+      "served": 32.704850133079006,
+      "served_change_by_ward": {
+        "harbor": {
+          "served_before_capacity_cut": 14.0,
+          "served_change": 0.0,
+          "served_now": 14.0,
+          "unmet_now": 7.00575901583489
+        },
+        "ridge": {
+          "served_before_capacity_cut": 7.0,
+          "served_change": 0.0,
+          "served_now": 7.0,
+          "unmet_now": 0.8564464411622357
+        },
+        "water": {
+          "served_before_capacity_cut": 12.0,
+          "served_change": -0.29514986692099754,
+          "served_now": 11.704850133079002,
+          "unmet_now": 0.0
+        }
+      },
+      "wards": {
+        "harbor": {
+          "benefit": 70.09517650713926,
+          "served_total": 14.0,
+          "unmet_total": 7.00575901583489
+        },
+        "ridge": {
+          "benefit": 33.20912902295509,
+          "served_total": 7.0,
+          "unmet_total": 0.8564464411622357
+        },
+        "water": {
+          "benefit": 48.58403248683871,
+          "served_total": 11.704850133079002,
+          "unmet_total": 0.0
+        }
+      }
+    },
+    {
+      "basket": {
+        "o3": 1,
+        "o5": 2,
+        "o6": 2
+      },
+      "basket_text": "o3×1 + o5×2 + o6×2",
+      "benefit": 129.49201548954508,
+      "cost_cents": 352000,
+      "fixed_included": {},
+      "served": 28.561296574241236,
+      "served_change_by_ward": {
+        "harbor": {
+          "served_before_capacity_cut": 14.0,
+          "served_change": -5.0,
+          "served_now": 9.0,
+          "unmet_now": 2.947447833673305
+        },
+        "ridge": {
+          "served_before_capacity_cut": 7.0,
+          "served_change": 0.8564464411622357,
+          "served_now": 7.856446441162236,
+          "unmet_now": 0.0
+        },
+        "water": {
+          "served_before_capacity_cut": 12.0,
+          "served_change": -0.29514986692099754,
+          "served_now": 11.704850133079002,
+          "unmet_now": 0.0
+        }
+      },
+      "wards": {
+        "harbor": {
+          "benefit": 45.720922500281574,
+          "served_total": 9.0,
+          "unmet_total": 2.947447833673305
+        },
+        "ridge": {
+          "benefit": 35.1870605024248,
+          "served_total": 7.856446441162236,
+          "unmet_total": 0.0
+        },
+        "water": {
+          "benefit": 48.58403248683871,
+          "served_total": 11.704850133079002,
+          "unmet_total": 0.0
+        }
+      }
+    },
+    {
+      "basket": {
+        "o4": 1,
+        "o5": 1,
+        "o6": 1,
+        "o7": 2
+      },
+      "basket_text": "o4×1 + o5×1 + o6×1 + o7×2",
+      "benefit": 128.42260233683479,
+      "cost_cents": 401000,
+      "fixed_included": {},
+      "served": 28.058311182161585,
+      "served_change_by_ward": {
+        "harbor": {
+          "served_before_capacity_cut": 14.0,
+          "served_change": -4.941688817838415,
+          "served_now": 9.058311182161585,
+          "unmet_now": 0.0
+        },
+        "ridge": {
+          "served_before_capacity_cut": 7.0,
+          "served_change": 0.0,
+          "served_now": 7.0,
+          "unmet_now": 0.8564464411622357
+        },
+        "water": {
+          "served_before_capacity_cut": 12.0,
+          "served_change": 0.0,
+          "served_now": 12.0,
+          "unmet_now": 7.728754757423243
+        }
+      },
+      "wards": {
+        "harbor": {
+          "benefit": 41.51318024476788,
+          "served_total": 9.058311182161585,
+          "unmet_total": 0.0
+        },
+        "ridge": {
+          "benefit": 33.20912902295509,
+          "served_total": 7.0,
+          "unmet_total": 0.8564464411622357
+        },
+        "water": {
+          "benefit": 53.70029306911181,
+          "served_total": 12.0,
+          "unmet_total": 7.728754757423243
+        }
+      }
+    }
+  ],
+  "as_of": "2026-10-25",
+  "capacity": {
+    "clinic/night": {
+      "cap_units": 10,
+      "locked_units_other": 0,
+      "promised_units": 3,
+      "visible_from": "2026-10-02"
+    },
+    "day/weekday": {
+      "cap_units": 9,
+      "locked_units_other": 0,
+      "promised_units": 2,
+      "visible_from": "2026-09-01"
+    },
+    "mobile/weekend": {
+      "cap_units": 34,
+      "locked_units_other": 0,
+      "promised_units": 6,
+      "visible_from": "2026-09-01"
+    }
+  },
+  "explanation": "原锁定记录保持原样；本次只重排可调整项目。存在容量缺口，需另行补足保障或减少可调整包数。",
+  "fixed": [],
+  "guarantee_gaps": [],
+  "new_lock": {
+    "as_of": "2026-10-25",
+    "basket": {
+      "o3": 1,
+      "o5": 2,
+      "o6": 1,
+      "o7": 1
+    },
+    "basket_text": "o3×1 + o5×2 + o6×1 + o7×1",
+    "benefit": 151.88833801693306,
+    "checks": [
+      {
+        "code": "offer_ids",
+        "message": "订单编号均可识别",
+        "ok": true
+      },
+      {
+        "code": "nonzero",
+        "message": "包数均为正",
+        "ok": true
+      },
+      {
+        "code": "max_packs",
+        "message": "各订单开办量未超过上限",
+        "ok": true
+      },
+      {
+        "code": "ties",
+        "message": "捆绑组包数一致",
+        "ok": true
+      },
+      {
+        "code": "provider_capacity",
+        "message": "班次容量足够，已承诺与已锁定部分已先扣除",
+        "ok": true
+      },
+      {
+        "code": "budget",
+        "message": "本轮新购费用 387000 分，在可承购预算 465000 分以内",
+        "ok": true
+      },
+      {
+        "code": "minimum_families",
+        "message": "各区达到最低支持户数",
+        "ok": true
+      },
+      {
+        "code": "evidence",
+        "message": "所有新购订单在本区都有可比证据",
+        "ok": true
+      }
+    ],
+    "cost_cents": 387000,
+    "digest": "fcdd3ff1c32c0eef4f7c44a98703203c94616cba8466889d92dcc3838c26bd58",
+    "label": "示例：容量减量修订",
+    "lock_id": "L002",
+    "reason": "clinic/night 由 14 降至 10",
+    "recorded_at": "2026-11-22T06:53:07+00:00",
+    "reserve_cents": 50000,
+    "ridge": 3.0,
+    "served": 32.704850133079006,
+    "spec": "B",
+    "supersedes": "L001"
+  },
+  "original_lock": "L001",
+  "shortfalls": [
+    {
+      "adjustable_units": 9,
+      "available_units": 7,
+      "cap_units": 10,
+      "fixed_units": 0,
+      "offers": [
+        "o3",
+        "o4"
+      ],
+      "other_locked_units": 0,
+      "period": "night",
+      "promised_units": 3,
+      "provider": "clinic",
+      "shortfall": 2,
+      "units": 9,
+      "visible_from": "2026-10-02"
+    }
+  ]
+}
